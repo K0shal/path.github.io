@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(99, 99, 238);
+        }
+
+        svg {
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+
+        }
+
+        img {
+            position: absolute;
+            width: 15%;
+            right: 1%;
+        }
+
+        .raj {
+            position: absolute;
+            top: 16%;
+            width: 35%;
+            left: 1.7%;
+            z-index: 2;
+            border: 5px solid rgb(99, 99, 238);
+            ;
+            border-radius: 50%;
+        }
+
+        .laxmi,
+        .nala {
+            font-size: 40px;
+            color: blue;
+            z-index: 3;
+            position: absolute;
+
+        }
+
+        .laxmi {
+            top: 2%;
+            left: 3%
+        }
+
+        .nala {
+            right: 20%;
+            top: 15%
+        }
+
+        .school {
+            color: red;
+            font-size: 50px;
+            position: absolute;
+            top: 7%;
+            left: 3%;
+            z-index: 2;
+        }
+
+        #svgelem {
+            z-index: 7;
+            position: absolute;
+            left: 3%;
+            top: 100%;
+        
+            width: 30%;
+            height: 35%;
+        }
+        #sv{
+            z-index: 7;
+            position: absolute;
+            left: -11%;
+            top: 84.6%;
+        transform:rotateZ(180deg);
+            width: 30%;
+            height: 35%;
+        }
+    </style>
+</head>
+
+<body>
+    <svg>
+        <path d="M0,250 C70,120 100,120 200,130 C400,140 800,200 1017,140 L1017,0 L0,0 L0,250" stroke-width="5px"
+            stroke="yellow" fill="yellow" />
+    </svg>
+    <h1 class="laxmi">RAJ LUXMI</h1>
+    <h1 class="school">SAMVID GURUKULAM SCHOOL</h1>
+    <h1 class="nala">NALAGARH (H.P.)</h1>
+    <img src="laxmi.png">
+    <img class="raj" src="raj.png">
+
+    <img style="position: absolute; width: 80%;border-bottom-left-radius: 80%;right:0%;height:80%;top:10%"
+        src="school.jpg" alt="">
+    <img style="position: absolute;top:60%;z-index: 4;border-radius: 80%;height: 70%;width:60%;border:5px solid rgb(99, 99, 238);;right:-12%;"
+        src="clab.jpg" alt="">
+    <p style="color:white;font-size: 30px;display: inline-block;position: absolute;z-index: 5;top:80%;left:4%">
+        Patronized by Param Pujya</p>
+    <p style="color:white;font-size: 30px;display: inline-block;position: absolute;z-index: 5;top:85%;left:2%">Didi Maa
+        Sadhvi Ritambhara Ji</p>
+    <svg id="svgelem" width="300" height="300">
+        <polygon
+            points="0,100 12,80 2,70 15,68 15,50 27,53 27,37 37,42 39,25 52,31 56,17 65,22 69,10 80,17 88,5 95,16 100,2 108,11 112,2 120,13 130,2 132,20 150,14 140,30 160,29"
+            fill="yellow" />
+    </svg>
+    <svg id="sv" width="300" height="300">
+        <polygon
+            points="0,100 12,80 2,70 15,68 15,50 27,53 27,37 37,42 39,25 52,31 56,17 65,22 69,10 80,17 88,5 95,16 100,2 108,11 112,2 120,13 130,2 132,20 150,14 140,30 160,29"
+            fill="yellow" />
+    </svg>
+<center style="position: absolute;display:inline-block;top:106%;left:2%;width:20%;z-index: 7;height:12%;transform: rotateZ(-20deg);"><p style="color:red;font-size: 13px;
+display: inline-block;z-index: 7;font-weight:bolder;">Special Scholarship for<br>Defence Personnel &<br>Siblings</p></center>
+<h1 style="color:red;font-size: 40px;font-weight: bolder;position: absolute;z-index: 5;top:120%;left:3%">A Residential School</h1>
+<h1 style="color:white;font-size: 25px;font-weight: bolder;position: absolute;z-index: 5;top:127%;left:3%">Exclusively for boys</h1>
+<div style="position: absolute; background-color: white;width: 30%;height: 6.5%;top:132%;z-index: 5;border-bottom-right-radius:12px;border-top-right-radius:12px;color: blue;font-size: 20px;text-align: center;padding-top: 1%;">in the foothills of the himalayas</div>
+<h1 style="position: absolute;top:140%;z-index: 6;color: white;font-size: 20px;left:3%">Village Bariyan,tehsil. Nalagarh,Distt. Solan,Himachal Pradesh</h1>
+<h1 style="position: absolute;top:145%;z-index: 5;color:red;left:3%;font-size: 50px;font-weight: bolder;">ADMISSIONS OPEN</h1>
+<div style="background-color: black;position: absolute;
+text-align: center;color: yellow;top:155%;width:47%;height:8%;font-size: 25px;left:3%;border-radius: 12px;padding-top: 1%;">For Classes V,VI,VII,VIII, & IX</div>
+<br><br>
+<footer style="background-color: blue;width: 100%;height: 20%;position: absolute;top:164%">
+<h1 style="color:yellow;text-align:center;">Admission Helpline : 786004351,7876430935</h1>
+<h1 style="color: white;font-size: 30px;text-align: center;">web : www.samvidgurukulam.org | Email: admissionsamvidnlg@gamil.com</h1><br>
+<h1 style="color:white;font-size: 15px;text-align: center;">Like us at:/samvid Gurukulam &nbsp; Subscribe us at: /samvid4u</h1>
+
+</footer>
+
+</body>
+
+</html>
